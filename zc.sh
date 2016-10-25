@@ -1,4 +1,5 @@
 sudo apt-get update -y
+sudo apt-get upgrade -y
 sudo apt-get install build-essential pkg-config libgtest-dev libc6-dev m4 autoconf libtool nano ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake aptitude -y
 sudo aptitude install g++ g++-multilib -y
 git clone https://github.com/zcash/zcash.git
@@ -19,9 +20,10 @@ echo "rpcpassword=password" >> ~/.zcash/zcash.conf
 echo "gen=1" >> ~/.zcash/zcash.conf
 echo "genproclimit=6" >> ~/.zcash/zcash.conf
 echo "equihashsolver=tromp" >> ~/.zcash/zcash.conf
-echo "Check your conf, add new nodes, etc:"
-nano ~/.zcash/zcash.conf
+#echo "Check your conf, add new nodes, etc:"
+#nano ~/.zcash/zcash.conf
 ~/zcash/./src/zcashd
+
 #~/zcash/./src/zcashd -daemon
 #~/zcash/./src/zcash-cli getmininginfo
 #sleep 5
