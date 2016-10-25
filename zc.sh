@@ -7,9 +7,9 @@ git checkout v1.0.0-rc2
 ./zcutil/fetch-params.sh
 echo "now compilation will start"
 ./zcutil/build.sh -j$(nproc)
-echo "now testing will start"
-./qa/zcash/full-test-suite.sh
-./qa/pull-tester/rpc-tests.sh
+#echo "now testing will start"
+#./qa/zcash/full-test-suite.sh
+#./qa/pull-tester/rpc-tests.sh
 echo "now solo mining will start"
 mkdir -p ~/.zcash
 echo "testnet=1" >> ~/.zcash/zcash.conf
