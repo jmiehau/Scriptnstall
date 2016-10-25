@@ -1,6 +1,6 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install build-essential pkg-config libgtest-dev libc6-dev m4 autoconf libtool nano lm-sensors ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake aptitude -y
+sudo apt-get install build-essential pkg-config libgtest-dev libc6-dev m4 autoconf libtool nano htop lm-sensors ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake aptitude -y
 sudo aptitude install g++ g++-multilib -y
 git clone https://github.com/zcash/zcash.git
 cd zcash/
