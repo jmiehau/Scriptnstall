@@ -21,10 +21,11 @@ echo "genproclimit=6" >> ~/.zcash/zcash.conf
 echo "equihashsolver=tromp" >> ~/.zcash/zcash.conf
 echo "Check your conf, add new nodes, etc:"
 nano ~/.zcash/zcash.conf
-~/zcash/./src/zcashd -daemon
-~/zcash/./src/zcash-cli getmininginfo
-sleep 5
-~/zcash/./src/zcash-cli getwalletinfo
+~/zcash/./src/zcashd
+#~/zcash/./src/zcashd -daemon
+#~/zcash/./src/zcash-cli getmininginfo
+#sleep 5
+#~/zcash/./src/zcash-cli getwalletinfo
 #"Welcome to Zcash. You can check you hashrate using zcbm, consult the info on zcinfo, read the txs with zctxs, and use zcstart and zcstop to manage it. You can also use >>watch free<< to watch your memory consumption."
 #~/zcash/./src/zcash-cli getinfo
 #~/zcash/src/./zcash-cli zcbenchmark solveequihash 10
