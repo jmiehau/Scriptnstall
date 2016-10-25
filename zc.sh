@@ -18,6 +18,7 @@ echo "rpcuser=user" >> ~/.zcash/zcash.conf
 echo "rpcpassword=password" >> ~/.zcash/zcash.conf
 echo "gen=1" >> ~/.zcash/zcash.conf
 echo "genproclimit=6" >> ~/.zcash/zcash.conf
+echo "equihashsolver=tromp" >> ~/.zcash/zcash.conf
 echo "Check your conf, add new nodes, etc:"
 nano ~/.zcash/zcash.conf
 ~/zcash/./src/zcashd -daemon
