@@ -17,7 +17,7 @@ echo "addnode=mainnet.z.cash" >> ~/.zcash/zcash.conf
 echo "rpcuser=user" >> ~/.zcash/zcash.conf
 echo "rpcpassword=`head -c 32 /dev/urandom | base64`" >>~/.zcash/zcash.conf
 echo "gen=1" >> ~/.zcash/zcash.conf
-echo "genproclimit=6" >> ~/.zcash/zcash.conf
+echo "genproclimit=-1" >> ~/.zcash/zcash.conf
 echo "equihashsolver=tromp" >> ~/.zcash/zcash.conf
 #echo "Check your conf, add new nodes, etc:"
 #nano ~/.zcash/zcash.conf
